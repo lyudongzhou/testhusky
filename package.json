@@ -1,0 +1,27 @@
+{
+  "name": "testhusky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "lint:eslint": "echo \"lint:ESlint\"",
+    "lint:prettier": "echo \"lint:prettier\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyudongzhou/testhusky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyudongzhou/testhusky/issues"
+  },
+  "homepage": "https://github.com/lyudongzhou/testhusky#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.0"
+  }
+}
