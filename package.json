@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "lint:eslint": "echo \"lint:ESlint\"",
+    "lint:eslint": "echo \"lint:ESlint\" && exit 1",
     "lint:prettier": "echo \"lint:prettier\""
   },
   "repository": {
